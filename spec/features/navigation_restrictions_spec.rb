@@ -54,7 +54,7 @@ RSpec.describe 'Navigation Restrictions' do
       visit '/admin/users'
     end
 
-    it 'I can not patch to /merchant/:id' do
+    xit 'I can not patch to /merchant/:id' do
       page.driver.submit :patch, 'admin/merchants/3', {}
     end
 
@@ -119,7 +119,7 @@ RSpec.describe 'Navigation Restrictions' do
       visit '/admin/users'
     end
 
-    it 'I can not patch to /merchant/:id' do
+    xit 'I can not patch to /merchant/:id' do
       page.driver.submit :patch, 'admin/merchants/3', {}
     end
 
